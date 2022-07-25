@@ -28,6 +28,7 @@ var andra = {
   friends: {},
 };
 
+
 person.friends.larry = larry;
 person.friends.steven = steven;
 person.friends.andra = andra;

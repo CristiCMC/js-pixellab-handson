@@ -73,3 +73,16 @@ console.warn(`
   Afiseaza numarul de caractere al numelui de familie al lui Steven
 `);
 console.log(person.friends.steven.surname.length.toString());
+
+console.warn(`
+  Afiseaza varsta prietenei Carol
+`);
+console.log(
+  'Prietena mea ' +
+    person.friends.carol.name +
+    ' ' +
+    person.friends.carol.surname +
+    ' are ' +
+    person.friends.carol.age +
+    ' ani.',
+);
